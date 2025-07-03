@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="bg-[url('img/bg.jpg')] bg-cover bg-center h-screen bg-norepeat gap-5 flex flex-col overflow-auto">
+<body class="bg-[url('img/bg.jpg')] bg-cover bg-center h-100vh w-100% bg-norepeat gap-5 flex flex-col overflow-auto">
     <!--Header-->
     <header
         class="m-3 w-xl-full text-black p-4 text-center flex flex-row gap-4 justify-around items-center backdrop-blur-md"
@@ -24,7 +24,7 @@
         <!--Logo & Navigation-->
         <div class="logo flex flex-row items-center gap-2">
             <img src="img/logo.png" alt="Logo" hright="25px" width="25px" class="rounded-full">
-            <h1 class="text-2xl font-bold">Tailwind CSS</h1>
+            <h1 class="text-[15px] md:text-[18px] font-bold">Tailwind CSS</h1>
         </div>
         <nav class=" flex justify-center text-lg justify-center hidden md:block md:flex">
             <ul class=" nav flex space-x-10  transition duration-300 ease-in-out">
@@ -42,7 +42,7 @@
         </div>
     </header>
     <!--Section1-->
-    <section class="m-3 w-xl-full text-black p-4 text-center backdrop-blur-md flex flex-col md:flex-row gap-4"
+    <section class="m-3 w-xl-full text-black p-4 text-center backdrop-blur-md flex flex-col lg:flex-row gap-4"
         style="border-radius: 15px; background-color: rgba(255, 255, 255, 0.4);">
         <div class="w-50% flex flex-col justify-center items-center gap-4">
             <h1 class="text-4xl font-bold">Easy To Use Tailwind</h1>
@@ -53,14 +53,14 @@
             </p>
         </div>
         <div class="w-50%">
-            <img src="img/1.png" alt="Image" srcset="">
+            <img src="img/1.png" alt="Image" srcset="" style="border-radius: 12px;">
         </div>
     </section>
     <!--Section 2-->
-    <section class="m-3 w-xl-full text-black p-4 text-center backdrop-blur-md flex flex-col md:flex-row gap-4"
+    <section class="m-3 w-xl-full text-black p-4 text-center backdrop-blur-md flex flex-col lg:flex-row gap-4"
         style="border-radius: 15px; background-color: rgba(255, 255, 255, 0.4);">
         <div class="w-50%">
-            <img src="img/1.png" alt="Image" srcset="">
+            <img src="img/2.jpg" alt="Image" srcset="" style="border-radius: 12px;">
         </div>
         <div class="w-50% flex flex-col justify-center items-center gap-4">
             <h1 class="text-4xl font-bold">Make WebSite More Interesting</h1>
@@ -76,17 +76,17 @@
         class="m-3 w-xl-full text-black p-4 text-center flex flex-row gap-4 justify-around items-center backdrop-blur-md "
         style="border-radius: 35px; background-color: rgba(255, 255, 255, 0.4);">
         <!--Logo-->
-        <div class="logo flex flex-row items-center gap-1">
-            <img src="img/logo.png" alt="Logo" hright="25px" width="25px" class="rounded-full">
-            <h1 class="text-2xl font-bold">Tailwind CSS</h1>
+        <div class="logo flex flex-row items-center gap-1 md:text-[10px] ">
+            <img src="img/logo.png" alt="Logo" hright="25px" width="25px" class="rounded-full hidden md:block md:flex">
+            <h1 class="text-[15px] md:text-[18px] font-bold ">Tailwind CSS</h1>
         </div>
         <!--Icons-->
-        <div class="items-center justify-center rounded-full gap-5 flex flex-row md:flex-row gap-4">
-            <h1 class="font-bold ">Connect With Us</h1>
-            <a href="#"><i class="fa-brands fa-github text-2xl text-black "></i></a>
-            <a href="#"><i class="fa-brands fa-google text-2xl text-black "></i></a>
-            <a href="#"><i class="fa-solid fa-font-awesome text-2xl text-black "></i></a>
-            <i class="fa-brands fa-instagram text-2xl text-black"></i>
+        <div class="items-center justify-center rounded-full gap-5 flex flex-row sm:flex-row gap-4">
+            <h1 class="font-bold text-[15px] md:text-[18px]">Connect With Us</h1>
+            <a href="https://github.com"><i class="fa-brands fa-github text-2xl text-black  md:text-3xl"></i></a>
+            <a href="mailto:nirmalvishwakarma6359@gmail.com"><i class="fa-solid fa-envelope text-2xl text-black  md:text-3xl"></i></i></a>
+            <a href="https://fontawesome.com/"><i class="fa-solid fa-font-awesome text-2xl text-black  md:text-3xl"></i></a>
+            <a href="https://www.instagram.com/nirmal.8866?igsh=MTFreGNkdDEzdHA3Yg=="><i class="fa-brands fa-instagram text-2xl text-black  md:text-3xl"></i></a>
         </div>
     </footer>
 </body>
