@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Css | Practise</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <!--Css -->
+    <link rel="stylesheet" href="style.css">
+    <!--Fontawsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body class="bg-[url('img/bg.jpg')] bg-cover bg-center h-screen bg-norepeat gap-5 flex flex-col overflow-auto">
+    <!--Header-->
+    <header
+        class="m-3 w-xl-full text-black p-4 text-center flex flex-row gap-4 justify-around items-center backdrop-blur-md"
+        style="border-radius: 35px; background-color: rgba(255, 255, 255, 0.4);">
+        <!--Logo & Navigation-->
+        <div class="logo flex flex-row items-center gap-2">
+            <img src="img/logo.png" alt="Logo" hright="25px" width="25px" class="rounded-full">
+            <h1 class="text-2xl font-bold">Tailwind CSS</h1>
+        </div>
+        <nav class=" flex justify-center text-lg justify-center hidden md:block md:flex">
+            <ul class=" nav flex space-x-10  transition duration-300 ease-in-out">
+                <li class="hover:cursor-pointer"><a href="#">Home</a></li>
+                <li class="hover:cursor-pointer"><a href="#">About</a></li>
+                <li class="hover:cursor-pointer"><a href="#">Blog</a></li>
+                <li class="hover:cursor-pointer"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="btn  space-x-2 text-center flex flex-row justify-center items-center">
+            <button type="submit" class="text-1xl w-15 font-bold bg-grey rounded text-1xl hover:cursor-pointer"><a
+                    href="#">Sign In</a></button>
+            <button type="submit" class="text-1xl w-15 font-bold bg-grey rounded text-1xl hover:cursor-pointer"><a
+                    href="#">Log In</a></button>
+        </div>
+    </header>
+    <!--Section1-->
+    <section class="m-3 w-xl-full text-black p-4 text-center backdrop-blur-md flex flex-col md:flex-row gap-4"
+        style="border-radius: 15px; background-color: rgba(255, 255, 255, 0.4);">
+        <div class="w-50% flex flex-col justify-center items-center gap-4">
+            <h1 class="text-4xl font-bold">Easy To Use Tailwind</h1>
+            <p class="text-2xl text-start md:items-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+                officia enim
+                velit aut facere, officiis odio aspernatur, accusantium asperiores, fugit ad saepe sint hic quibusdam
+                voluptatum fuga ipsam maxime amet?
+            </p>
+        </div>
+        <div class="w-50%">
+            <img src="img/1.png" alt="Image" srcset="">
+        </div>
+    </section>
+    <!--Section 2-->
+    <section class="m-3 w-xl-full text-black p-4 text-center backdrop-blur-md flex flex-col md:flex-row gap-4"
+        style="border-radius: 15px; background-color: rgba(255, 255, 255, 0.4);">
+        <div class="w-50%">
+            <img src="img/1.png" alt="Image" srcset="">
+        </div>
+        <div class="w-50% flex flex-col justify-center items-center gap-4">
+            <h1 class="text-4xl font-bold">Make WebSite More Interesting</h1>
+            <p class="text-2xl text-start md:items-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+                officia enim
+                velit aut facere, officiis odio aspernatur, accusantium asperiores, fugit ad saepe sint hic quibusdam
+                voluptatum fuga ipsam maxime amet?
+            </p>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer
+        class="m-3 w-xl-full text-black p-4 text-center flex flex-row gap-4 justify-around items-center backdrop-blur-md "
+        style="border-radius: 35px; background-color: rgba(255, 255, 255, 0.4);">
+        <!--Logo-->
+        <div class="logo flex flex-row items-center gap-1">
+            <img src="img/logo.png" alt="Logo" hright="25px" width="25px" class="rounded-full">
+            <h1 class="text-2xl font-bold">Tailwind CSS</h1>
+        </div>
+        <!--Icons-->
+        <div class="items-center justify-center rounded-full gap-5 flex flex-row md:flex-row gap-4">
+            <h1 class="font-bold ">Connect With Us</h1>
+            <a href="#"><i class="fa-brands fa-github text-2xl text-black "></i></a>
+            <a href="#"><i class="fa-brands fa-google text-2xl text-black "></i></a>
+            <a href="#"><i class="fa-solid fa-font-awesome text-2xl text-black "></i></a>
+            <i class="fa-brands fa-instagram text-2xl text-black"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
