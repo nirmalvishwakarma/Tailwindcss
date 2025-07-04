@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+header>nav{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+header>nav>ul>li{
+    transition: all 0.2s ease-in-out;
+}
+header>nav>ul>li:hover{
+    text-decoration: underline ;
+}
+
+.btn>button:hover{
+    text-decoration: underline ;
+}
